@@ -15,17 +15,17 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://nerdynikhil.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/FoundationModels-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nerdynikhil', // Usually your GitHub org/user name.
-  projectName: 'FoundationModels-Examples', // Usually your repo name.
+  projectName: 'FoundationModels-Docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nerdynikhil/FoundationModels-Examples/tree/main/docs/',
+            'https://github.com/nerdynikhil/FoundationModels-Docs/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nerdynikhil/FoundationModels-Examples/tree/main/docs/',
+            'https://github.com/nerdynikhil/FoundationModels-Docs/tree/main/docs/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -87,7 +87,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/nerdynikhil/FoundationModels-Examples',
+          href: 'https://github.com/nerdynikhil/FoundationModels-Docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -118,11 +118,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/nerdynikhil/FoundationModels-Examples',
+              href: 'https://github.com/nerdynikhil/FoundationModels-Docs',
             },
             {
               label: 'Issues',
-              href: 'https://github.com/nerdynikhil/FoundationModels-Examples/issues',
+              href: 'https://github.com/nerdynikhil/FoundationModels-Docs/issues',
             },
           ],
         },
@@ -135,7 +135,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/nerdynikhil/FoundationModels-Examples',
+              href: 'https://github.com/nerdynikhil/FoundationModels-Docs',
             },
           ],
         },

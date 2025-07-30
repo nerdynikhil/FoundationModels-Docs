@@ -71,7 +71,7 @@ func streamResponse(to prompt: String) -> AsyncThrowingStream<String, Error>
 ---
 
 ```swift
-func streamResponse<T: Generable>(
+func streamResponse&lt;T: Generable&gt;(
     to prompt: String, 
     generating type: T.Type
 ) -> AsyncThrowingStream<T.PartiallyGenerated, Error>
@@ -242,12 +242,12 @@ struct GenerationID: Hashable, Identifiable {
 
 **Usage**: Used to track individual elements in partially generated content.
 
-### PartiallyGenerated<T>
+### PartiallyGenerated&lt;T&gt;
 
 Wrapper type for streaming structured content generation.
 
 ```swift
-struct PartiallyGenerated<T: Generable> {
+struct PartiallyGenerated&lt;T: Generable&gt; {
     // Properties mirror T but as optionals
     // Available as T.PartiallyGenerated
 }
@@ -312,7 +312,7 @@ enum FoundationModelsError: LocalizedError {
 ## Type Aliases
 
 ```swift
-typealias GeneratedContent<T: Generable> = T.PartiallyGenerated
+typealias GeneratedContent&lt;T: Generable&gt; = T.PartiallyGenerated
 ```
 
 **Description**: Convenience alias for partially generated content.
