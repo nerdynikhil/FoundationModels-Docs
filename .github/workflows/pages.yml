@@ -1,0 +1,15 @@
+# This file disables the default GitHub Pages workflow
+# We're using our custom deploy.yml workflow instead
+name: Disabled Pages Build and Deployment
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip build
+        run: echo "Skipping default pages build - using custom deploy workflow" 
