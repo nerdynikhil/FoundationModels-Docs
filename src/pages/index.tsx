@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Comprehensive examples and documentation for Foundation Models integration with SwiftUI">
+      description="Complete Foundation Models API documentation with real-world examples, SwiftUI integration, and production-ready patterns for building AI-powered iOS apps.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

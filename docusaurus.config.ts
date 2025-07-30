@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Foundation Models Examples',
-  tagline: 'Comprehensive examples and documentation for Foundation Models integration',
+  title: 'Foundation Models Docs',
+  tagline: 'Complete Foundation Models API documentation with real-world examples, SwiftUI integration, and production-ready patterns for building AI-powered iOS apps.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -73,11 +73,8 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Foundation Models Examples',
-      logo: {
-        alt: 'Foundation Models Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Foundation Models Docs',
+
       items: [
         {
           type: 'docSidebar',
@@ -140,7 +137,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Foundation Models Examples. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Foundation Models Docs. Made with ❤️ by nerdynikhil. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
